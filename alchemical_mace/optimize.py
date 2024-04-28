@@ -7,11 +7,12 @@ class ExponentiatedGradientDescent(torch.optim.Optimizer):
     Implements Exponentiated Gradient Descent.
 
     Args:
-        params (iterable of torch.Tensor or dict): iterable of parameters to optimize or 
+        params (iterable of torch.Tensor or dict): iterable of parameters to optimize or
             dicts defining parameter groups.
         lr (float, optional): learning rate. Defaults to 1e-3.
         eps (float, optional): small constant for numerical stability. Defaults to 1e-8.
     """
+
     def __init__(
         self,
         params: Union[Iterable[torch.Tensor], Iterable[Dict[str, Any]]],

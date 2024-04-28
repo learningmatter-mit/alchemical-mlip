@@ -131,7 +131,7 @@ dyn = NPT(
 
 # Define alchemical path
 t = np.linspace(0.0, 1.0, args.alchemy_switch_steps)
-lambda_steps = t ** 5 * (70 * t ** 4 - 315 * t ** 3 + 540 * t ** 2 - 420 * t + 126)
+lambda_steps = t**5 * (70 * t**4 - 315 * t**3 + 540 * t**2 - 420 * t + 126)
 lambda_values = [
     np.zeros(args.alchemy_equil_steps),
     lambda_steps,
@@ -167,7 +167,7 @@ def get_observables(dynamics, time, lambda_value):
 total_steps = 2 * args.alchemy_equil_steps + 2 * args.alchemy_switch_steps
 
 observables = []
-for step in (tqdm(range(total_steps), desc="Alchemical switching")):
+for step in tqdm(range(total_steps), desc="Alchemical switching"):
     lambda_value = lambda_values[step]
     grad_enabled = calculate_gradients[step]
 
