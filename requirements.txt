@@ -1,0 +1,12 @@
+torch==2.0.1
+e3nn==0.4.4
+mace-torch==0.3.4
+ase==3.22.1
+pymatgen==2024.3.1
+numpy==1.25.2
+scipy==1.11.2
+pandas==2.2.2
+matplotlib==3.8.0
+mpltern==1.0.2
+tqdm==4.66.1
+ipykernel==6.25.2
