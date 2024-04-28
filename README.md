@@ -1,6 +1,6 @@
 # Alchemical MLIP
 [![arXiv](https://img.shields.io/badge/arXiv-2404.10746-84cc16)](https://arxiv.org/abs/2404.10746)
-[![Zenodo](https://img.shields.io/badge/Zenodo-10.5281/zenodo.11081395-14b8a6.svg)](https://zenodo.org/doi/10.5281/zenodo.11081395)
+[![Zenodo](https://img.shields.io/badge/DOI-10.5281/zenodo.11081492-14b8a6.svg)](https://zenodo.org/doi/10.5281/zenodo.11081492)
 [![MIT](https://img.shields.io/badge/License-MIT-3b82f6.svg)](https://opensource.org/license/mit)
 
 This repository contains the code to modify machine learning interatomic potentials (MLIPs) to enable continuous and differentiable alchemical transformations.
