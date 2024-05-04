@@ -8,5 +8,5 @@ scipy==1.11.2
 pandas==2.2.2
 matplotlib==3.8.0
 mpltern==1.0.2
-tqdm==4.66.1
+tqdm==4.66.3
 ipykernel==6.25.2
